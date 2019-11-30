@@ -33,19 +33,11 @@ Crie seu virtualenv
 * Ambiente Windows
 
     ```
-    c:\Python36\Scripts\pip.exe install virtualenv      
-    ```
-    Depois crie um diretório onde estarão seus ambientes virtuais
+    pip install virtualenv      
     
+    virtualenv tutorial-scrape
     ```
-    c:\<alguma_pasta_sua> > mkdir virtualenv
-    ```
-  
-    Crie o virtualenv
-    ```
-    c:\<alguma_pasta_sua> >c:\Python36\Scripts\virtualenv.exe virtualenv\tutorial-scrape
-    ```
-
+    
 Ativa seu virtualenv
 
 * Linux
@@ -64,7 +56,7 @@ Ativa seu virtualenv
 * Windows
 
     ```
-    c:\<alguma_pasta_sua>\virtualenv\Scripts\activate
+    tutorial-scrape\Scripts\activate
     ```
 
 
